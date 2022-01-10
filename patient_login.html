@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="patient_login.css">
+    
+    <title>Book-Appointment</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMzGqaiG5wwqsDBfpoyHnCW1yj5jzpQi4mdg&usqp=CAU">
+</head>
+<body>
+    
+    <img src="logo.jpeg"  class="logo" width="180px" height="150px">
+<header>
+    <nav>
+    <ul class="nav-link">
+        <li> <a href="patient_login.html">HOME</a> </li>
+        <li> <a href="doctor.html">DOCTOR</a> </li>
+        <li> <a href="admin.html">ADMIN</a> </li>
+        <li> <a href="#">CONTACT US</a> </li>
+    
+
+    </ul>
+    </nav>
+</header>
+    <div class="container">
+        <div class="card">
+    <form action="patient_login.php" method="post" id="form">
+        <p>NAME:</p>
+        <input type="text" id="name"  name="name" required >
+        <p>AGE:</p>
+        <input type="number" id='age' name='age' required>
+        <br>
+        <p>GENDER:</p>
+            <select name="gender" id="gender">
+                <option value="blank">--select--</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="others">Others</option>
+            </select>
+        <p>MOBILE:</p>
+        <input type="number" id='number' name="mobile" required>
+        <br>
+        <p>Date:</p>
+        <input type="date" id='date' name="date" required>
+        <br>
+        <p>Time:</p>
+        <input type="time" id='time' name="time" required>
+        <br>
+         <input type="submit" id="submit"  name="submit" value="Book-appointment"></input>
+         
+          
+    </form>
+    </div>
+    
+    
+</div>
+</body>
+</html>
+
+
+
