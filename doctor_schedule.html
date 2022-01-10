@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="doctor_schedule.css">
+    <title>Doctor-schedule</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMzGqaiG5wwqsDBfpoyHnCW1yj5jzpQi4mdg&usqp=CAU">
+</head>
+<body>
+    
+    <img src="logo.jpeg"  class="logo" width="180px" height="150px">
+<header>
+    <nav>
+    <ul class="nav-link">
+        <li> <a href="signUp.html">HOME</a> </li>
+        <li> <a href="doctor.html">DOCTOR</a> </li>
+        <li> <a href="Admin.html">ADMIN</a> </li>
+        <li> <a href="#">CONTACT US</a> </li>
+    
+
+    </ul>
+    </nav>
+</header>
+    <div class="container">
+        <div class="card">
+    <form action="doctor_schedule.php" method="post" id="form">
+        <p>ID:</p>
+        <input type="text" id="id"  name="id" required >
+        <br>
+        <p>NAME:</p>
+        <input type="text" id='name' name='name' required>
+        <br>
+        <p>TIME:</p>
+        <input type="time" id='time' name="time" required>
+        <br>
+        <p>DATE:</p>
+        <input type="date" id='date' name="date" required>
+        <br>
+        <p>STATUS:</p>
+        <input type="text" id='status' name="status" required>
+        <br>
+         <input type="submit" id="submit"  name="submit" value="SAVE"></input>
+    </form>
+    </div>
+    
+    
+</div>
+</body>
+</html>

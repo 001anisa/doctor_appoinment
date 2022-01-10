@@ -1,0 +1,179 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    color:white;
+    background-color:rgb(40, 107, 107);
+    display:flex;
+    justify-content: center;
+
+}
+.container
+{
+
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    margin: 20px ;
+    padding: 10px ;
+    width: 20%;
+    height: 100vh;
+    display:flex;
+    align-items: bottom;
+    
+}
+.card
+{
+    display: flex;
+    width: 450px;
+    height:650px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow : 0 0 40px 20px rgb(17, 34, 31);
+    background-position: center;
+    padding: 20px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+}
+li,a,button
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:20px;
+    color: black;
+    text-decoration: none;
+    padding:10px ;
+    margin: 20px;
+
+    
+}
+header
+{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    position: relative;
+    top:50px;
+    left:150px;
+}
+.logo
+{
+    cursor:pointer;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.nav-link
+{
+    list-style:none;
+}
+.nav-link li
+{
+    display: inline-block;
+    border-radius:2px;
+    /* padding:0px 30px; */
+}
+.nav-link li a
+{
+    transition: all 0.3s ease 0s;
+}
+.nav-link li a:hover
+{
+    color:black;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: orange;
+    
+
+}
+#submit
+{
+    padding:9px 25px;
+    width: 100px;
+    margin: 20px;
+    position: absolute;
+    left:10px;
+    background-color: orange;
+    border:none;cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius:20px;
+    font-family: 'Times New Roman', Times, serif;   
+    font-size: 18px;
+    font-weight:bold;
+}
+#submit:hover
+{
+    background-color:aqua;
+}
+p
+{
+ font-family: 'Times New Roman', Times, serif;   
+ font-size: 18px;
+ font-weight:bold;
+ margin: 15px 0;
+ padding: 5px;
+ letter-spacing: 1px ;
+ align-items: center;
+ color:rgb(12, 12, 12);
+ cursor: pointer;
+ 
+
+
+}
+input 
+{
+    width: 150px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: large;
+    
+    
+}
+button
+{
+    position: absolute;
+    padding:9px 25px;;
+    left: 70px;
+    width:150px;
+    margin: 20px ;
+    color: black;
+    border: 1px solid black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:20px;
+    background-color:orange;
+    border-radius:40px;
+}
+button:hover
+{
+   background-color:aqua;
+}
+select 
+{
+    width: 150px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size:20px;
+    cursor: pointer;
+    
+}
+#date
+{
+    width: 250px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    
+}

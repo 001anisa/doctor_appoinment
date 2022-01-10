@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor-portal</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMzGqaiG5wwqsDBfpoyHnCW1yj5jzpQi4mdg&usqp=CAU">
+   
+    <link rel="stylesheet" href="Admin.css">
+</head>
+<body>
+    <img src="logo.jpeg"  class="logo" width="200px" height="150px">
+    <header>
+        <nav>
+        <ul class="nav-link">
+            <li> <a href="signUp.html">HOME</a> </li>
+            <li> <a href="doctor.html">DOCTOR</a> </li>
+            <li> <a href="Admin.html">ADMIN</a> </li>
+            <li> <a href="#">CONTACT US</a> </li>
+        
+    
+        </ul>
+        </nav>
+    </header>
+        <div class="container">
+            <div class="card">
+        <form action="doctor.php" method="post" id="form">
+            <p>Doctor-Id:</p>
+            <input type="text" id="id" name="id" >
+            <br>
+            <p>Doctor-Name</p>
+            <input type="text " id="id" name="name" required><br>
+            <input type="submit" id="submit"  name="submit" value="Login"></input>
+        </form>
+        </div>
+        
+    </div>
+</body>
+</html>
